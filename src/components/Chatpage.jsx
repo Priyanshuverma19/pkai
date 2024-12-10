@@ -15,6 +15,7 @@ const Chatpage = () => {
       const res = await fetch(`${import.meta.env.VITE_API_URL}/api/chats/${chatId}`, {
         credentials: "include",
       });
+     
 
       if (!res.ok) {
         throw new Error("Failed to fetch chat data");
