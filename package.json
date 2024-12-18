@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@vercel/static-build": "^2.5.39"
+  }
+}
